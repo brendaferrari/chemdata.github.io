@@ -1,12 +1,12 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
-avatar: /avatar.jpeg
+title: ChemData
+description: To share my learning journey.
+url: 
+avatar: /avatar1.jpg
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
-
+cover_image: /bg1.jpg
+#<a href='https://www.freepik.com/vectors/background'>Background vector created by starline - www.freepik.com</a>
 # Gems
 plugins:
   - jekyll-gist
@@ -29,14 +29,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: 
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: 
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - 
+    - 
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,7 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Brenda Ferrari
+  url: 
+  github: https://github.com/brendaferrari
+  
