@@ -6,7 +6,7 @@ avatar: /avatar1.jpg
 paginate: 5
 permalink: pretty
 cover_image: /bg1.jpg
-#<a href='https://www.freepik.com/vectors/background'>Background vector created by starline - www.freepik.com</a>
+
 # Gems
 plugins:
   - jekyll-gist
@@ -56,5 +56,5 @@ sass:
 author:
   name: Brenda Ferrari
   url: 
-  github: https://github.com/brendaferrari
+  github:
   
