@@ -4,7 +4,7 @@ description: To share my learning journey.
 url: 
 avatar: /avatar1.jpg
 paginate: 5
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title/
 cover_image: /bg1.jpg
 
 # Gems
