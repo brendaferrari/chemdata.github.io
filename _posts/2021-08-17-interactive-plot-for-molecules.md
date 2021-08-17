@@ -7,14 +7,14 @@ tags: [interactive-plot, python, chemistry]
 toc:  true
 ---
 
-On the past months I was working on a fingerprint analysis in a dataset of my interest and when I obtained the data on a plot. I was not happy about
-just to show the data points without any labels on it. When I searched more about ways to show labels on a plot I found that it was possible to hover data over points on scatterplots! And then I thought with myself: *"Hey, Can I hover images over my plots? It would be amazing if people could get my data and just go exploring the molecules!"*.
+On the past months I was working on a fingerprint analysis in a dataset of my interest. When I obtained the data on a plot I was not happy about
+just to show the data points without any labels on it. When I searched more about ways to show labels on a plot I found that it was possible to hover data over points on scatterplots! And then I thought with myself: *"Hey, Can I hover images over my plots? It would be amazing if people could get my analysis and just go exploring the molecules!"*.
 
-I searched a lot, but unfortunatley found any library in only python that I could use to implement in my code... But... I found **[bokeh](https://bokeh.org/)**!
+I searched a lot, but unfortunatley found no library in only python that I could use to implement in my code... But... I found **[bokeh](https://bokeh.org/)**!
 
-Even though bokeh was made to implement on python codes with NumPy, Scipy, Pandas, Scikit-Learn and others, the coding of some plot details is on html and I had no knowledge to implement html on my python code. So I decided not to use it on my dataset... But it was so tempting not to learn about its hover over a point functionality... 
+Even though bokeh was made to implement on python codes with NumPy, Scipy, Pandas, Scikit-Learn and others, the coding of some plot details is on html and I had no knowledge to implement html on my python code. So I decided not to use it on my dataset... But it was so tempting not to learn about its hover over a dot functionality... 
 
-Bokeh is a great library to build interactive plots that can make your client or audience explore the analysis of the data. For example in the image below, published at the bokeh site, the user can explore the data themselves, increasing the familiarity and interest for the information you have. This is really important for **storytelling**!
+Bokeh is a great library to build interactive plots that can make your client or audience explore the analysis of the data. For example, in the image below, published at the bokeh site, the user can explore the data themselves, increasing the familiarity and interest for the information you have. This is really important for **storytelling**!
 
 <center>
 <p>
@@ -64,7 +64,7 @@ And the molecules was generated as it follows:
 
 With the compound images generated, all I had to do was to plot some information. As the purpose of this exercice was not to study any property, I just used **random.randint** to generate some random data. 
 
-The [*interactive_plot.py*](https://github.com/brendaferrari/interactive_plot/blob/master/interactive_plot.py), from **bokeh.plotting** **ColumnDataSource** was used to get the data in a dictionary format and from **bokeh.models**, **HoverTool** was used to implement the hover over a dot functionality. On **source**, **desc** was used to describe the name of the compounds to be used as the legend of the image and in **imgs** is the path of the file. It is possible to chance the size, margin, border and style of the image at **hover** < img >< /img > and legend style at < span < /span >. To generate the plot **figure** from **bokeh.plotting** is used. The **p.circle** is used to edit the size of the data points. To save the plot is necessary to use **output_file** from **bokeh.plotting**.
+ From **bokeh.plotting** in [*interactive_plot.py*](https://github.com/brendaferrari/interactive_plot/blob/master/interactive_plot.py), **ColumnDataSource** was used to get the data in a dictionary format and from **bokeh.models**, **HoverTool** was used to implement the hover over a dot functionality. On **source**, **desc** was used to describe the name of the compounds to be used as the legend of the image and in **imgs** is the path of the file. It is possible to change the size, margin, border and style of the image at **hover** < img >< /img > and legend style at < span < /span >. To generate the plot, **figure** from **bokeh.plotting** is used. The **p.circle** is used to edit the size of the data points. To save the plot is necessary to use **output_file** from **bokeh.plotting**.
 
 
 ```
@@ -134,7 +134,7 @@ And then its done!
 </p>
 </center>
 
-In the future, I want to apply this interactive visualization to the analysis of some properties of a dataset. I want to understand how to integrate python coding to html.
+In the future, I want to apply this interactive visualization to the analysis of some properties of a dataset. I want to understand how to integrate html to python coding.
 
 I hope you liked this information and if you want the full code to test, it is on my [github page](https://github.com/brendaferrari/interactive_plot).
 
