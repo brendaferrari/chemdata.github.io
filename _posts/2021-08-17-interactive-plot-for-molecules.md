@@ -10,7 +10,7 @@ toc:  true
 On the past months I was working on a fingerprint analysis in a dataset of my interest. When I obtained the data on a plot I was not happy about
 just to show the data points without any labels on it. When I searched more about ways to show labels on a plot I found that it was possible to hover data over points on scatterplots! And then I thought with myself: *"Hey, Can I hover images over my plots? It would be amazing if people could get my analysis and just go exploring the molecules!"*.
 
-I searched a lot, but unfortunatley found no library in only python that I could use to implement in my code... But... I found **[bokeh](https://bokeh.org/)**!
+I searched a lot, but unfortunately found no library that I could use just python to implement in my code... But... I found **[bokeh](https://bokeh.org/)**!
 
 Even though bokeh was made to implement on python codes with NumPy, Scipy, Pandas, Scikit-Learn and others, the coding of some plot details is on html and I had no knowledge to implement html on my python code. So I decided not to use it on my dataset... But it was so tempting not to learn about its hover over a dot functionality... 
 
