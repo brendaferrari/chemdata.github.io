@@ -16,12 +16,11 @@ Even though bokeh was made to implement on python codes with NumPy, Scipy, Panda
 
 Bokeh is a great library to build interactive plots that can make your client or audience explore the analysis of the data. For example in the image below, published at the bokeh site, the user can explore the data themselves, increasing the familiarity and interest for the information you have. This is really important for **storytelling**!
 
-<center> 
-
-| ![bokehplot.jpg](https://bokeh.org/img/apps.gif) |
-|:--:|
-| <b>Bokeh interactive plot</b>|
-
+<center>
+<p>
+    <img src="https://bokeh.org/img/apps.gif" alt>
+    <em>Bokeh interactive plot</em>
+</p>
 </center>
 
 
@@ -47,20 +46,20 @@ for mol in supplier:
     d.FinishDrawing()
     d.WriteDrawingText(f'resources/images/{property}.png')
 ```
+
 <center>
 
-[*images.py*](https://github.com/brendaferrari/interactive_plot/blob/master/images.py)
+images.py
 
 </center>
 
 And the molecules was generated as it follows:
 
-<center> 
-
-| ![molecules-generated.jpg](interactive-plot-for-molecules/interactive-plot.png) |
-|:--:|
-| <b>Molecules generated using *[*images.py*](https://github.com/brendaferrari/interactive_plot/blob/master/images.py)*</b>|
-
+<center>
+<p>
+    <img src="https://github.com/brendaferrari/chemdata/blob/master/_posts/interactive-plot-for-molecules/interactive-plot.png?raw=true" alt>
+    <em>Molecules generated using images.py</em>
+</p>
 </center>
 
 With the compound images generated, all I had to do was to plot some information. As the purpose of this exercice was not to study any property, I just used **random.randint** to generate some random data. 
@@ -122,24 +121,17 @@ show(p)
 
 <center>
 
-[*interactive_plot.py*](https://github.com/brendaferrari/interactive_plot/blob/master/interactive_plot.py)
+interactive_plot.py
 
 </center>
 
 And then its done!
 
 <center>
-
-<img src="interactive-plot-for-molecules/interactive_plot.gif" width="500">
-
-</center>
-
-<center>
-
-| ![](interactive-plot-for-molecules/interactive-plot.gif) |
-|:--:|
-| <b>Plot generated using [*interactive_plot.py*](https://github.com/brendaferrari/interactive_plot/blob/master/interactive_plot.py)</b>|
-
+<p>
+    <img src="https://github.com/brendaferrari/chemdata/blob/master/_posts/interactive-plot-for-molecules/interactive_plot.gif?raw=true" alt>
+    <em>Plot generated using interactive_plot.py</em>
+</p>
 </center>
 
 In the future, I want to apply this interactive visualization to the analysis of some properties of a dataset. I want to understand how to integrate python coding to html.
