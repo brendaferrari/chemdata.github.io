@@ -2,10 +2,10 @@
 title: ChemData
 description: To share my learning journey.
 url: 
-avatar: /avatar1.jpg
+avatar: /avatar2.jpg
 paginate: 5
 permalink: /:categories/:year/:month/:day/:title/
-cover_image: /bg1.jpg
+cover_image: /bg2.jpg
 
 # Gems
 plugins:
